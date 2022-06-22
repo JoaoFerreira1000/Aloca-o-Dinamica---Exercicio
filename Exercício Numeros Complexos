@@ -1,0 +1,26 @@
+import math
+import cmath
+
+def complexo():
+    a = int(input("Escreva a unidade real do 1º número complexo: "))
+    b = int(input("Escreva a unidade imaginária do 1º número complexo: "))
+    c = int(input("Escreva a unidade real do 2º número complexo: "))
+    d = int(input("Escreva a unidade imaginária do 2º número complexo: "))
+    e = int(input("Escreva a unidade real do 3º número complexo: "))
+    f = int(input("Escreva a unidade imaginária do 3º número complexo: "))
+    x = complex(a, b)
+    y = complex(c, d)
+    w = complex(e, f)
+    print(x)
+    print(y)
+    print(w)
+    print(f"A soma dos números complexos é: {x + y + w}")
+    print(f"A subtração dos números complexos é: {x - y - w}")
+    print(f"A multiplicação dos números complexos é: {x * y * w}")
+    print(f"A divisão dos números complexos é: {x / y / w}")
+    print(f"A Unidade real do 1º número complexo é {x.real} e a imaginária é {x.imag}")
+    print(f"A Unidade real do 2º número complexo é {y.real} e a imaginária é {y.imag}")
+    print(f"A Unidade real do 3º número complexo é {w.real} e a imaginária é {w.imag}")
+
+r = complexo()
+print(r)
