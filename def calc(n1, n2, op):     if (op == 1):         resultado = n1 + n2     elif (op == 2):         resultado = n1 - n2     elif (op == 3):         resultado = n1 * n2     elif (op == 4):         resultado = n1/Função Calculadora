@@ -1,0 +1,19 @@
+def calc(n1, n2, op):
+    if (op == 1):
+        resultado = n1 + n2
+    elif (op == 2):
+        resultado = n1 - n2
+    elif (op == 3):
+        resultado = n1 * n2
+    elif (op == 4):
+        resultado = n1 / n2
+    else:
+        resultado = 0
+    return resultado
+
+
+x = float(input("Digite o 1º numero a ser calculado\n"))
+y = float(input("Digite o 2º numero a ser calculado\n"))
+z = float(input("Digite a operação sendo \n1. Soma\n2. Subtração\n3. Multiplicação\n4. Divisão\n"))
+
+print(f"O resultado da operação é {calc(x, y, z)}")
