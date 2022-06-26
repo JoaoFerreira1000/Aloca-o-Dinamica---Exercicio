@@ -1,0 +1,9 @@
+nome = str(input("Digite seu nome:\n"))
+nota1 = float(input("Digite sua primeira nota para calcular a média:\n"))
+nota2 = float(input("Digite sua segunda nota para calcular a média:\n"))
+falta = int(input("Digite quantas faltas você teve no semestre:\n"))
+media = (nota1+nota2)/2
+if (media<7) or (falta>3):
+    print(f"O aluno {nome} foi reprovado!")
+else:
+    print(f"O aluno {nome} foi aprovado!")
