@@ -1,0 +1,41 @@
+def votacao(candidato):
+    global candidato_X, candidato_Y, candidato_Z, branco
+
+    if candidato.isalpha():
+        if candidato == 'Fim' or candidato == 'fim' or candidato == 'FIM':
+            print('FIM DA VOTAÇÃO')
+            print_resultados()
+
+    elif candidato.isnumeric():
+        if candidato == '889' or candidato == '847' or candidato == '515':
+            if candidato == '889':
+                candidato_X += 1
+            elif candidato == '847':
+                candidato_Y += 1
+            elif candidato == '515':
+                candidato_Z += 1
+        else:
+            branco += 1
+
+
+def print_resultados():
+    global candidato_X, candidato_Y, candidato_Z, branco
+
+    print('QUANTIDADE DE VOTOS:\n')
+    print('CANDIDATO X - TOTAL DE ' + str(candidato_X))
+    print('CANDIDATO Y - TOTAL DE ' + str(candidato_Y))
+    print('CANDIDATO Z - TOTAL DE ' + str(candidato_Z))
+    print('BRANCOS E NULOS - TOTAL DE ' + str(branco))
+
+    exit()
+
+
+if __name__ == '__main__':
+    candidato_X = 0
+    candidato_Y = 0
+    candidato_Z = 0
+    branco = 0
+
+    while True:
+        candidato = str(input('ELEIÇÃO ESPECIAL\nDigite o numero do seu candidato: \nOu digite Fim para finalizar: '))
+        votacao(candidato)
