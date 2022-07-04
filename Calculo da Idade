@@ -1,10 +1,14 @@
 while True:
-    nome = input("Digite seu nome completo:\n")
-    ano = int(input("Digite o ano que nasceu entre 1922 a 2021:\n"))
-    if (ano > 1921) and (ano <= 2021):
-        break
-    else:
+    try:
+        nome = input("Digite seu nome completo:\n")
+        ano = float(input("Digite o ano que nasceu entre 1922 a 2021:\n"))
+        if (ano > 1921) and (ano <= 2021):
+            break
+        else:
+            print("Data inválida")
+        continue
+    except ValueError:
         print("Data inválida")
-    continue
+        continue
 idade = 2022 - ano
 print(f"{nome} completará {idade} anos de idade em 2022")
