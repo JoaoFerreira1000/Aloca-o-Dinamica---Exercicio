@@ -1,0 +1,7 @@
+def function(nome):
+    nome = nome.title()
+    return nome
+
+
+nome = input("Digite seu nome completo\n")
+print(function(nome))
