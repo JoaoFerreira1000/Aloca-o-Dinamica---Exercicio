@@ -1,0 +1,16 @@
+package br.com.empresa.banco.conta;
+package br.com.empresa2.pessoa.financeiro;
+
+    public class Banco extends Conta {
+       public static void main(String arg[]);
+		String saldo;
+		String deposito;
+	
+	}
+
+    public class Cliente extends Finaceiro {
+        public static void main(String arg[]);
+		String nome;
+       	String endereco;
+	
+	}
