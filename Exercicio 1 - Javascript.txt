@@ -1,0 +1,22 @@
+O primeiro site analisado foi o https://pomofocus.io/
+No qual havia um temporizador que utilizava o seguite código para exiber o timer na tela:
+
+<div id="timer-string" class="sc-fjmCvl fNWFAw">23:24</div>
+
+O segundo elemento, era um botão de "START" no qual você ativa e pausa o temporizador:
+
+<button color="rgb(217 85 80)" class="sc-bdVaJa sc-htpNat sc-TFwJa dFxGRv">START</button>
+
+O segudo site foi o google.com
+
+No qual foi analisado a barra de pesquisa, onde é digitado o assunto sobre o qual se tem interesse, cujo o código é:
+
+<input class="gLFyf gsfi" jsaction="paste:puy29d;" maxlength="2048" name="q" type="text" 
+aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off" 
+autocorrect="off" autofocus="" role="combobox" spellcheck="false" title="Pesquisar" 
+value="" aria-label="Pesq." data-ved="0ahUKEwjdsrrpwZn5AhWWK7kGHbK_BasQ39UDCAQ">
+
+Ja o segundo elemento era o botão de pesquisa, para direcionar o usuário aos links buscados:
+
+<input class="gNO89b" value="Pesquisa Google" aria-label="Pesquisa Google" name="btnK" 
+role="button" tabindex="0" type="submit" data-ved="0ahUKEwjdsrrpwZn5AhWWK7kGHbK_BasQ4dUDCA0">
