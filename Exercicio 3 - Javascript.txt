@@ -1,0 +1,4 @@
+Existem inúmeros dados, p. ex.: teclado, celular e chave, através é possivel reter informações e utilizá-las para um propósito. 
+Na internet não é diferente, as redes sociais, sites de pesquisa e streams, usam os dados coletados dos usuários para tirar dali 
+funções úteis, como por exemplo, aplicativos de GPS que coletam comentarios dos usuários para saber o estado da via; avaliações 
+de produtos em sites de e-comerce; e dados sobre a pesquisa do usuário para saber suas preferências e indicar assuntos relacionados.
