@@ -1,0 +1,4 @@
+Instalei o VS Code no Pc, pois ele é o mais indicado pela comunidade, e de certa forma senti facilidade em utilizar suas funções.
+Permite customizar atalhos, e funções que agilizam o trabalho, com p. ex. a função autocomplete de código inteligente que ajuda 
+com base na linguagem que se está usando, o que facilita a digitação e a execução do trabalho, além de ser possivel instalar várias
+extensões úteis.
