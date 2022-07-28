@@ -1,0 +1,8 @@
+O padrão escolhido foi o singleton, cuja principal caracteristica é de economizar memória e recursos do servidor 
+evitando que muitas instâncias de um mesmo objeto sejam carregadas na memória onde a aplicação está rodando. 
+Entre as vatangens, a economia de memoria é uma delas, que são altamnete indicadas para aplicações corporativas de 
+grande escala. Porém existe algumas desvantagens como o fato de que o singleton dificulta a implementação de testes 
+unitários, pois este impede que sejam criados instancias separadas para cada caso de teste.
+
+fontes: https://code.tutsplus.com/pt/articles/design-patterns-singletons--cms-23886
+https://medium.com/@helder.gonzaga_52406/design-patern-singleton-pros-e-contras-f0c7ab3c1f45
