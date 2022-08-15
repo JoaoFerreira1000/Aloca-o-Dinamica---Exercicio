@@ -1,0 +1,18 @@
+function divide(n1, n2) {
+    if (n2 === 0) { console.log('Divisão inválida') }
+    else {
+        const resto = Number(n1 / n2)
+        const quociente = Number(n1 % n2)
+        return [resto, quociente]
+    }
+}
+
+function calculadora(n1, n2, op) {
+    if (op === '+') { return Number(n1 + n2) }
+    else if (op === '-') { return Number(n1 - n2) }
+    else if (op === '*') { return Number(n1 * n2) }
+    else if (op === '/') { return divide(n1, n2) }
+    else { console.log("Operação inválida") }
+}
+const resuldado = calculadora(30, 2, '/')
+console.log(resuldado)
