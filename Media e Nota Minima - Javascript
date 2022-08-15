@@ -1,0 +1,16 @@
+function aprovacao(n1, n2, n3) {
+    let media = Number(n1 + n2 + n3) / 3
+    let resultado = (media >= 7 ? "Aprovado" : "Reprovado")
+    return resultado
+}
+
+function notaMinima(n1, n2) {
+    const media = Number(n1 + n2) / 2
+    let resultado = 14 - media
+    return resultado
+}
+
+const condicao = aprovacao(10, 6, 7)
+const nota = notaMinima(10, 6)
+console.log(condicao)
+console.log(nota)
