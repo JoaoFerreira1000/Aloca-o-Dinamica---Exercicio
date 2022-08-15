@@ -1,0 +1,23 @@
+let banco = {
+    conta: 0006534,
+    saldo: 1000,
+    tipo: 'Corrente',
+    agencia: 3435,
+
+    deposito: function (dep) {
+        this.saldo += dep
+    },
+
+    debito: function (saq) {
+        this.saldo -= saq
+    }
+
+}
+
+console.log(banco.saldo);
+banco.deposito(100);
+console.log(banco.saldo);
+banco.debito(50);
+console.log(banco.saldo);
+console.log(banco.conta);
+
