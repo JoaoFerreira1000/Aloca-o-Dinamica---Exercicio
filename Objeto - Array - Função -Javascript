@@ -1,0 +1,7 @@
+let pessoa = { nome: 'João', sobrenome: 'Silva', idade: 25 }
+let vetor = ['João', 'Maria', 'José', 'Silva'];
+function lista() { console.log(pessoa) }
+function lista2() { console.log(vetor) }
+
+lista()
+lista2()
