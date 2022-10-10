@@ -4,9 +4,7 @@ import { useState } from 'react'
 
 function Nome() {
     const [nome, setNome] = useState("")
-    function falar() {
-        alert(`Oi ${nome}, tudo bem?`)
-    }
+
     return (
         <main className={styles.container}>
             <div >
@@ -16,10 +14,10 @@ function Nome() {
                     value={nome}
                     onChange={(eNome) => setNome(eNome.target.value)} />
             </div>
-            <div>
-                <button className={styles.button} onClick={() => falar()}>Clique</button>
-            </div>
 
+            <div>
+                <p>{!nome ? "" : `Oi ${nome}, tudo bem? `}</p>
+            </div>
         </main>
 
     )
