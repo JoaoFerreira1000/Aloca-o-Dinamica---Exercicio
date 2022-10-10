@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background: rgb(45, 230, 60);
+    width: 400px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    margin-left: 450px;
+}
+
+button{
+    background: rgb(3, 12, 9);  
+    color: white;  
+    border-radius: 5px;
+    width: 100px;
+    font-size: 15px;
+}
+
