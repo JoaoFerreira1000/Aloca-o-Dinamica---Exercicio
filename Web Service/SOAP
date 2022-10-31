@@ -5,3 +5,6 @@ existem protocolos de comunicação como o SOAP (Simple Object Access Protocol).
 O protocolo SOAP utiliza XML para enviar mensagens e, geralmente, serve-se do protocolo HTTP para transportar os dados. 
 Associado ao protocolo SOAP está o documento WSDL (Web Service Definition Language) que descreve a localização do Web 
 service e as operações que dispõe. Além disso, fornece a informação necessária para que a comunicação entre sistemas seja possível.
+Para isso usamos o Postman que é um API Client que facilita aos desenvolvedores criar, compartilhar, testar e documentar APIs. Isso é feito, permitindo 
+aos usuários criar e salvar solicitações HTTP e HTTPs simples e complexas, bem como ler suas respostas.
+Por isso segue alguns prints da tela mosntrando como funciona.
