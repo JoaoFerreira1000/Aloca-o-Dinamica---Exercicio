@@ -1,0 +1,7 @@
+Um Web service é utilizado para transferir dados através de protocolos de comunicação para diferentes plataformas, 
+independentemente das linguagens de programação utilizadas nessas plataformas. É necessário uma linguagem intermédia 
+que garanta a comunicação entre a linguagem do Web service e o sistema que faz o pedido ao Web service. Para tal, 
+existem protocolos de comunicação como o SOAP (Simple Object Access Protocol).
+O protocolo SOAP utiliza XML para enviar mensagens e, geralmente, serve-se do protocolo HTTP para transportar os dados. 
+Associado ao protocolo SOAP está o documento WSDL (Web Service Definition Language) que descreve a localização do Web 
+service e as operações que dispõe. Além disso, fornece a informação necessária para que a comunicação entre sistemas seja possível.
