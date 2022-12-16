@@ -1,0 +1,39 @@
+const express = require('express');
+const app = express();
+
+app.get('/home', function (request, response) {
+    return response.json([
+        "teste1",
+        "teste2"
+    ])
+});
+
+app.post('/home', function (request, response) {
+    return response.json([
+        "teste1",
+        "teste2",
+        "teste3"
+    ])
+});
+
+app.put('/home/:id', function (request, response) {
+    return response.json([
+        "teste4",
+        "teste5",
+        "teste6"
+    ])
+});
+
+
+app.delete('/home', function (request, response) {
+    return response.json([
+        "teste2",
+        "teste3"
+    ])
+});
+
+
+app.listen(8080, () => {
+    console.log("Servidor executando na porta 8080");
+    console.log("Acessar http://localhost:8080/home");
+});
