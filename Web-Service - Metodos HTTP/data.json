@@ -1,0 +1,27 @@
+[
+  {
+    "id":1,
+    "nome": "Brumas",
+    "autor": "João",
+    "isbn": "91287131"
+  },
+
+  {"id":2,
+    "nome": "Zum",
+    "autor": "José",
+    "isbn": "1213132"
+  },
+
+  {"id":3,
+    "nome": "Tez",
+    "autor": "Maria",
+    "isbn": "3435532"
+  },
+
+  {"id":4,
+    "nome": "Vento",
+    "autor": "Silva",
+    "isbn": "546546457"
+  }
+
+]
